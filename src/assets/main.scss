@@ -1,0 +1,51 @@
+//About Pages Style
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+.about{
+  //background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75));
+  .main_computead{
+    .buttonpart{
+      cursor: pointer;
+      color: #292929;
+      font-size: 18px;
+    }
+  }
+  .about_title{
+    h1{
+      font-size: 50px;
+      font-family: 'Gochi Hand', cursive;
+      color: #8E8E8E;
+      text-align: center;
+      margin-bottom: 50px;
+      text-transform: capitalize;
+    }
+  }
+  .input_text_pops{
+    input{
+      background: #292929;
+      border: none;
+      padding: 10px;
+      outline: none;
+      margin-right: 10px;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 18px;
+      text-transform: capitalize;
+      &::placeholder{
+        color: #6E6E6E;
+      }
+    }
+  }
+  .box_part{
+    .header{
+      p{
+        color: #FAFAFA;
+        font-size: 16px;
+        padding: 20px;
+        background: #6E6E6E;
+        border-radius: 10px 0px 10px 0px;
+        letter-spacing: 1px;
+        line-height: 22px ;
+      }
+    }
+  }
+}
